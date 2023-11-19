@@ -2,18 +2,13 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: Fraunces;
-    src: url(https://fonts.google.com/specimen/Fraunces);
-  }
-
-
 body {
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
 main {
@@ -56,17 +51,18 @@ main {
 
 .textInContainer h1 {
     font-size: 2vw;
-    
 }
 
 .textInContainer p {
     font-size: 0.9vw;
-    font-family: Fraunces;
+    font-family: "Montserrat";
 }
+
 
 
 .prices {
     margin-left: 10%;
+    
 }
 
 .prices h1 {
